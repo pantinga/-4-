@@ -1,0 +1,89 @@
+html,
+body {
+margin: 0;
+padding: 0;
+}
+
+body {
+width: 450px;
+height: 335px;
+font-family: “Arial”, sans-serif;
+font-size: 10px;
+color: white;
+}
+.layout-positioner{
+width: 350px;
+margin: auto;
+}
+
+.layout-positioner:after {
+content: “”;
+clear: both;
+display: block;
+}
+.top{
+background: #34495e;
+padding-top: 10px ;
+}
+.header{
+background-color: #c0392b;
+min-height: 25px;
+padding: 5px;
+
+}
+.menu{
+background-color: #3498DB;
+min-height: 25px;
+margin: 10px 0;
+padding: 5px;
+padding-left: 55px;
+}
+.promo1{
+background-color: #c0392b;
+float: left;
+}
+.promo2{
+background-color: #c0392b;
+float: right;
+}
+.col1{
+padding: 5px;
+width: 160px;
+min-height: 50px;
+margin-bottom: 10px;
+}
+.middle{
+
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.left{
+background-color: #3498DB;
+float: left;
+width: 60px;
+min-height: 100px;
+margin-right: 10px;
+padding: 5px;
+
+}
+.main{
+float:left;
+width: 180px;
+min-height: 100px;
+background-color: #3498DB;
+padding: 5px;
+}
+.right{
+background-color: #3498DB;
+float:left;
+width: 60px;
+min-height: 100px;
+margin-left: 10px;
+padding: 5px;
+}
+.coll3{
+background-color: #34495e;
+padding: 5px;
+padding-left: 15px;
+height: 25px;
+}
